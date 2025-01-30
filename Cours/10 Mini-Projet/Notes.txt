@@ -1,0 +1,96 @@
+------------------------------------------------------------------------------------------------------------------------
+Data Transformation
+------------------------------------------------------------------------------------------------------------------------
+neither alter the schema of the dataset
+nor the number of records
+
+Operations in this category neither alter the schema of the dataset nor the number of records. Instead, they modify
+specific attribute values by applying a transformation function.
+
+- Imputation
+- Value transformation
+- Binarization
+- Normalization
+- Discretization
+
+------------------------------------------------------------------------------------------------------------------------
+Vertical Data Reduction
+------------------------------------------------------------------------------------------------------------------------
+remove some of the attributes characterizing the data records
+
+There are two operations that fall in this category, namely Feature
+Selection and Drop Columns. Both of this operations remove some of the attributes
+characterizing the data records in the input dataset Din and produce a next dataset Dout
+that reflects the dataset obtained as a result.
+
+- Feature Selection
+- Reduction Drop Columns
+
+------------------------------------------------------------------------------------------------------------------------
+Horizontal Data Reduction
+------------------------------------------------------------------------------------------------------------------------
+The data records in Dout are subsets of those in Din
+
+Given a dataset Din, an operation that performs horizontal
+reduction produces a new dataset Dout, where the data records in Dout are subsets of
+those in Din: Dout ✓ Din. Data manipulations that fall into this category include the
+following operations: filtering, instance selection, row deletion, and undersampling.
+
+- Instance Selection
+- Drop Rows
+
+------------------------------------------------------------------------------------------------------------------------
+Vertical Data Augmentation
+------------------------------------------------------------------------------------------------------------------------
+
+produces a dataset Dout with a different schema from Din. However,
+Din and Dout have the same number of records, with the ith record in Dout corresponding
+to the ith record in Din.
+
+Operations in this category include Space Transformation,
+String Indexer, and One-Hot Encoder. Given an input dataset Din, applying vertical
+data augmentation produces a dataset Dout with a different schema from Din. However,
+Din and Dout have the same number of records, with the ith record in Dout corresponding
+to the ith record in Din.
+
+- Space Transformation
+- String Indexer
+- One-Hot Encoder
+
+
+------------------------------------------------------------------------------------------------------------------------
+Horizontal Data Augmentation
+------------------------------------------------------------------------------------------------------------------------
+
+Operations that fall into this category are Instance Generation and Oversampling
+
+- String Indexer
+- One-Hot Encoder
+
+------------------------------------------------------------------------------------------------------------------------
+Data Fusion
+------------------------------------------------------------------------------------------------------------------------
+
+The join of the datasets Dl and Dr, implemented using the Merge operation in the
+Pandas library, and denoted by Dl ont
+C Dr, produces a dataset Dj as a result of joining
+Dl and Dr on a boolean condition C, where t represents the join type (inner, left outer,
+right outer, or full outer).
+
+Append The append operation, implemented using Concat in the Pandas library, appends
+the records of a dataset Dl at the end of the Dr, denoted by Dl ] Dr. The two
+datsets do not need to have the same schema, and as such the results are extended with
+null for the mismatching attributes.
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+CustomerID,Name,Age,Gender,City,SignupDate,AnnualSpend,LoyaltyPoints
+1,David,46,Female,New York,2018-10-01 12:00:00,5011.74,1912
+2,Eve,64,Non-Binary,Houston,2016-03-07 12:00:00,3869.02,2768
+3,Charlie,67,Female,New York,2012-10-16 12:00:00,15772.53,1778
+4,Eve,39,Female,Phoenix,2018-05-24 12:00:00,5432.05,3373
+5,Eve,53,Non-Binary,Phoenix,2020-08-12 12:00:00,6396.46,1181
