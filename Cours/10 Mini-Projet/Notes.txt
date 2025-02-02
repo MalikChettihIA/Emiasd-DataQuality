@@ -14,7 +14,7 @@ specific attribute values by applying a transformation function.
 - Discretization
 
 ------------------------------------------------------------------------------------------------------------------------
-Vertical Data Reduction
+Vertical Data Reduction ok
 ------------------------------------------------------------------------------------------------------------------------
 remove some of the attributes characterizing the data records
 
@@ -23,8 +23,8 @@ Selection and Drop Columns. Both of this operations remove some of the attribute
 characterizing the data records in the input dataset Din and produce a next dataset Dout
 that reflects the dataset obtained as a result.
 
-- Feature Selection
-- Reduction Drop Columns
+- Feature Selection --> ok
+- Reduction Drop Columns  --> ok
 
 ------------------------------------------------------------------------------------------------------------------------
 Horizontal Data Reduction
@@ -36,7 +36,7 @@ reduction produces a new dataset Dout, where the data records in Dout are subset
 those in Din: Dout ✓ Din. Data manipulations that fall into this category include the
 following operations: filtering, instance selection, row deletion, and undersampling.
 
-- Instance Selection
+- Instance Selection  --> ok
 - Drop Rows
 
 ------------------------------------------------------------------------------------------------------------------------
